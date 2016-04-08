@@ -10,4 +10,4 @@ all:$(file).tex clean
 	$(viewer) $(file).pdf
 
 clean:*
-	rm -f *.aux *.bbl *.bcf *.blg *.dvi *.lof *.lot *.toc *blx.bib *run.xml *.log
+	rm -f *.aux *.bbl *.bcf *.blg *.dvi *.lof *.lot *.toc *blx.bib *run.xml *.log *.lol .*  >/dev/null 2>&1

@@ -28,12 +28,19 @@
 %\pgfplotsset{compat=1.9}
 \usepgfplotslibrary{units}
 
+
+%Unused.
 %\usepackage{listings}
+%\renewcommand{\lstlistingname}{Algorithm}
+%\renewcommand{\lstlistlistingname}{List of \lstlistingname s}
 
 
 %about source code highlighting
 %using minted to highlight source code
 \usepackage{minted}
+\renewcommand\listingscaption{Algorithm}
+\renewcommand\listoflistingscaption{List of \listingscaption s}
+
 \newmintedfile[cppfile]{cpp}{frame=lines,linenos}
 %\usemintedstyle{colorful}
 

@@ -12,9 +12,12 @@ all:$(file).tex
 
 .PHONY:push
 push:
+	make clean
 	git add *
 	git commit -m "$(mess)"
 	git push origin master
+	#Usage:
+	#make push mess='update sth'
 
 .PHONY: clean
 clean:
